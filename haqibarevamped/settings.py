@@ -37,6 +37,9 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # local apps
+    'customauth',
+    'emacs',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -100,3 +103,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
 
 STATIC_URL = '/static/'
+
+
+# New definitions below this line
+# -------------------------------
+
+AUTH_USER_MODEL = 'customauth.HUser'
