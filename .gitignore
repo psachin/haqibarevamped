@@ -1,0 +1,10 @@
+# .gitignore for haqibarevamped
+
+*.egg-info
+*.pot
+*.py[co]
+__pycache__
+db.sqlite3
+
+screenshots/
+user_profiles/
